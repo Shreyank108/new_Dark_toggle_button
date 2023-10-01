@@ -1,0 +1,68 @@
+*{ 
+    margin:0; 
+    padding:0; 
+    box-sizing:border box 
+}
+    html,body
+{ 
+        width:100% ;
+        height:100%;
+ }
+ #page1{ 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #card{ 
+    width: 25vw;
+    height: 75vh;
+    background-color: lightgrey;
+    position: relative;
+    border-radius: 10px;
+ }
+ #toggle{ 
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+ }
+ #left
+ { 
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 99999;
+  
+   
+ }
+ #right
+ { 
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  
+    z-index: 99999;
+    
+ }
+ #cir{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border: 2px solid rgb(244, 207, 20);
+    border-radius: 50%;
+ }

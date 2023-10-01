@@ -1,0 +1,22 @@
+document.querySelector("#left").addEventListener("click",function(){ 
+    gsap.to("#cir",{ 
+        x:40
+    })
+    gsap.to("#page1",{ 
+        backgroundColor:"white"
+    })
+    gsap.to("#card",{ 
+        backgroundColor:"lightgrey"
+    })
+})
+document.querySelector("#right").addEventListener("click",function(){ 
+    gsap.to("#cir",{ 
+        x:0
+    })
+    gsap.to("#page1",{ 
+        backgroundColor:" rgb(49, 49, 49)"
+    })
+    gsap.to("#card",{ 
+        backgroundColor:"white"
+    })
+})
